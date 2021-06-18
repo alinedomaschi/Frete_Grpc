@@ -1,3 +1,15 @@
 micronaut:
   application:
     name: fretes
+
+grpc:
+  server:
+     health:
+       enabled: true
+
+endpoints:
+  health:
+    enabled : true
+    sensitive: false
+    details-visible: ANONYMOUS
+
